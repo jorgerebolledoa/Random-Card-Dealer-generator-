@@ -28,8 +28,8 @@ window.onload = function() {
   ];
 
   button.addEventListener("click", e => {
-    pinta_random = Math.floor(Math.random() * (3 - 0)) + 0;
-    numero_random = Math.floor(Math.random() * (12 - 0)) + 0;
+    pinta_random = Math.floor(Math.random() * (4 - 0)) + 0;
+    numero_random = Math.floor(Math.random() * (13 - 0)) + 0;
     numero.innerHTML = pull_numero[numero_random];
     pinta.innerHTML = pull_pinta[pinta_random];
     pinta2.innerHTML = pull_pinta[pinta_random];
